@@ -1,0 +1,175 @@
+body {
+font-family: Arial, sans-serif;
+background: #f0f4f8;
+margin: 0;
+color: #222;
+}
+
+header {
+background: #12345a;
+color: white;
+text-align: center;
+padding: 25px 10px;
+}
+
+header h1 {
+margin-bottom: 8px;
+}
+
+.container {
+background: white;
+max-width: 650px;
+margin: 35px auto;
+padding: 25px;
+border-radius: 12px;
+box-shadow: 0 3px 12px rgba(0, 0, 0, 0.1);
+}
+
+textarea {
+width: 100%;
+height: 140px;
+padding: 12px;
+box-sizing: border-box;
+border: 1px solid #aaa;
+border-radius: 7px;
+font-size: 16px;
+resize: vertical;
+}
+
+button {
+width: 100%;
+padding: 13px;
+margin-top: 15px;
+background: #087f8c;
+color: white;
+border: none;
+border-radius: 7px;
+font-size: 16px;
+cursor: pointer;
+}
+
+button:hover {
+background: #06636d;
+}
+
+.result {
+margin-top: 22px;
+padding: 15px;
+border-radius: 8px;
+background: #f5f7fa;
+overflow-wrap: anywhere;
+}
+
+.result h3 {
+margin-top: 0;
+}
+
+.result ul {
+padding-left: 22px;
+}
+
+.note {
+margin-top: 20px;
+font-size: 13px;
+color: #555;
+}
+
+footer {
+text-align: center;
+padding: 15px;
+color: #555;
+}
+
+@media (max-width: 700px) {
+.container {
+margin: 20px 12px;
+padding: 18px;
+}
+}body {
+font-family: Arial, sans-serif;
+background: #f0f4f8;
+margin: 0;
+color: #222;
+}
+
+header {
+background: #12345a;
+color: white;
+text-align: center;
+padding: 25px 10px;
+}
+
+header h1 {
+margin-bottom: 8px;
+}
+
+.container {
+background: white;
+max-width: 650px;
+margin: 35px auto;
+padding: 25px;
+border-radius: 12px;
+box-shadow: 0 3px 12px rgba(0, 0, 0, 0.1);
+}
+
+textarea {
+width: 100%;
+height: 140px;
+padding: 12px;
+box-sizing: border-box;
+border: 1px solid #aaa;
+border-radius: 7px;
+font-size: 16px;
+resize: vertical;
+}
+
+button {
+width: 100%;
+padding: 13px;
+margin-top: 15px;
+background: #087f8c;
+color: white;
+border: none;
+border-radius: 7px;
+font-size: 16px;
+cursor: pointer;
+}
+
+button:hover {
+background: #06636d;
+}
+
+.result {
+margin-top: 22px;
+padding: 15px;
+border-radius: 8px;
+background: #f5f7fa;
+overflow-wrap: anywhere;
+}
+
+.result h3 {
+margin-top: 0;
+}
+
+.result ul {
+padding-left: 22px;
+}
+
+.note {
+margin-top: 20px;
+font-size: 13px;
+color: #555;
+}
+
+footer {
+text-align: center;
+padding: 15px;
+color: #555;
+}
+
+@media (max-width: 700px) {
+.container {
+margin: 20px 12px;
+padding: 18px;
+}
+}

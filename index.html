@@ -1,0 +1,47 @@
+<!DOCTYPE html><html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ScamShield - Scam Detector</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body><header>
+    <h1>🛡️ ScamShield</h1>
+    <p>Smart Scam Pattern Detection System</p>
+</header>
+
+<main class="container">
+    <h2>Check a Suspicious Message</h2>
+
+    <p>
+        Paste an SMS, email, or message below to check
+        for common scam warning signs.
+    </p>
+
+    <textarea id="message"
+        placeholder="Paste your suspicious message here..."></textarea>
+
+    <button onclick="analyseMessage()">Analyse Message</button>
+
+    <section id="result" class="result" aria-live="polite">
+        <h3>Analysis Result</h3>
+        <p id="risk"></p>
+        <p id="score"></p>
+        <ul id="warnings"></ul>
+        <p id="advice"></p>
+    </section>
+
+    <p class="note">
+        Note: This tool identifies common warning signs.
+        It cannot guarantee whether a message is genuine or fraudulent.
+    </p>
+</main>
+
+<footer>
+    <p>ScamShield | Student Project</p>
+</footer>
+
+<script src="script.js"></script>
+
+</body>
+</html>
